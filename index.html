@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT: your name and a one-line summary (shown in search results and link previews) -->
+  <title>Your Name — Medical Student ePortfolio</title>
+  <meta name="description" content="ePortfolio of Your Name, medical student: clinical experience, research, teaching, reflections and CV.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">YN</span>
+        <span>Your Name</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Menu</span>
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#clinical">Clinical</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#reflections">Reflections</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1Z"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Medical Student · Year 4 of 5</p>
+          <h1>Your Name</h1>
+          <!-- EDIT: one or two sentences on who you are and what drives you -->
+          <p class="lead">
+            Medical student at <strong>Your Medical School</strong> with a particular interest in
+            <strong>internal medicine</strong> and <strong>medical education</strong>. Committed to safe,
+            compassionate, evidence-based care.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="assets/cv.pdf" download>Download CV</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <!-- EDIT: replace with assets/profile.jpg — see README -->
+          <img src="assets/profile.svg" alt="Portrait of Your Name" width="240" height="240" class="avatar">
+          <dl class="quick-facts">
+            <div><dt>School</dt><dd>Your Medical School</dd></div>
+            <div><dt>Graduating</dt><dd>2028 (MBBS / MD)</dd></div>
+            <div><dt>Interests</dt><dd>Internal Medicine, Cardiology, MedEd</dd></div>
+            <div><dt>Languages</dt><dd>English, Urdu</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats" aria-label="Portfolio at a glance">
+      <div class="container stats-grid">
+        <!-- EDIT: keep these numbers truthful and matching your logbook -->
+        <div class="stat"><span class="stat-num">9</span><span class="stat-label">Clinical rotations</span></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Research projects</span></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Poster presentations</span></div>
+        <div class="stat"><span class="stat-num">120+</span><span class="stat-label">Volunteer hours</span></div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container narrow">
+        <h2 class="section-title">Personal Statement</h2>
+        <!-- EDIT: 150–300 words. Why medicine, what you have learned, where you are heading. -->
+        <p>
+          My interest in medicine began while caring for a family member through a long illness, where I saw
+          how much clear communication and continuity of care mattered to patients and families. That
+          experience still shapes how I approach every clinical encounter.
+        </p>
+        <p>
+          Through my clinical placements I have developed a strong interest in internal medicine — particularly
+          the diagnostic reasoning involved in managing patients with multiple long-term conditions. Alongside
+          my studies I teach junior students clinical examination skills and have contributed to quality
+          improvement work on medication safety.
+        </p>
+        <p>
+          This portfolio documents my progress against the outcomes expected of a graduate doctor: clinical
+          competence, professionalism, scholarship, teaching and reflective practice.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section alt" id="education">
+      <div class="container">
+        <h2 class="section-title">Education &amp; Qualifications</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <span class="timeline-date">2023 – 2028 (expected)</span>
+            <h3>MBBS / MD — Your Medical School</h3>
+            <p>Current year: 4. Ranking / decile: <em>add if strong</em>.</p>
+            <ul class="tags"><li>Distinction in Year 2 Anatomy</li><li>Student Representative</li></ul>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2026</span>
+            <h3>Intercalated BSc (Hons) — e.g. Clinical Sciences</h3>
+            <p>Dissertation: <em>Title of your dissertation</em>. Grade: <em>First / 2:1</em>.</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2021 – 2023</span>
+            <h3>A-Levels / Pre-Medical — Your School or College</h3>
+            <p>Biology A*, Chemistry A*, Physics A (edit to match).</p>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">Certifications</span>
+            <h3>Basic Life Support (BLS) · ILS · Good Clinical Practice (GCP)</h3>
+            <p>Add the awarding body and expiry date for each.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CLINICAL ============ -->
+    <section class="section" id="clinical">
+      <div class="container">
+        <h2 class="section-title">Clinical Experience</h2>
+        <p class="section-intro">
+          Placements completed, with key learning outcomes. No patient-identifiable information is recorded here.
+        </p>
+        <div class="card-grid">
+          <!-- EDIT: copy/paste an <article> block per rotation -->
+          <article class="card">
+            <header class="card-head">
+              <h3>General Medicine</h3>
+              <span class="badge">6 weeks</span>
+            </header>
+            <p class="meta">Teaching Hospital Name · Year 3</p>
+            <ul>
+              <li>Clerked and presented new admissions on post-take ward rounds</li>
+              <li>Managed acute presentations under supervision (sepsis, AKI, COPD exacerbation)</li>
+              <li>Supervisor feedback: <em>“short quote from your assessment form”</em></li>
+            </ul>
+          </article>
+          <article class="card">
+            <header class="card-head">
+              <h3>General Surgery</h3>
+              <span class="badge">6 weeks</span>
+            </header>
+            <p class="meta">Teaching Hospital Name · Year 3</p>
+            <ul>
+              <li>Scrubbed in for laparoscopic cholecystectomies and appendicectomies</li>
+              <li>Pre-operative assessment and post-operative ward care</li>
+              <li>Practised suturing and wound closure in theatre</li>
+            </ul>
+          </article>
+          <article class="card">
+            <header class="card-head">
+              <h3>Emergency Medicine</h3>
+              <span class="badge">4 weeks</span>
+            </header>
+            <p class="meta">Teaching Hospital Name · Year 4</p>
+            <ul>
+              <li>Triage and initial assessment using the ABCDE approach</li>
+              <li>Participated in resus team for trauma and cardiac arrest calls</li>
+              <li>Interpreted ECGs and ABGs with senior review</li>
+            </ul>
+          </article>
+          <article class="card">
+            <header class="card-head">
+              <h3>Paediatrics</h3>
+              <span class="badge">4 weeks</span>
+            </header>
+            <p class="meta">Children’s Hospital Name · Year 4</p>
+            <ul>
+              <li>History-taking from parents and age-appropriate communication</li>
+              <li>Developmental assessment and growth chart interpretation</li>
+            </ul>
+          </article>
+          <article class="card">
+            <header class="card-head">
+              <h3>Obstetrics &amp; Gynaecology</h3>
+              <span class="badge">4 weeks</span>
+            </header>
+            <p class="meta">Teaching Hospital Name · Year 4</p>
+            <ul>
+              <li>Antenatal clinics, labour ward and gynaecology theatre</li>
+              <li>Observed and assisted with normal vaginal deliveries</li>
+            </ul>
+          </article>
+          <article class="card">
+            <header class="card-head">
+              <h3>General Practice</h3>
+              <span class="badge">4 weeks</span>
+            </header>
+            <p class="meta">GP Practice Name · Year 4</p>
+            <ul>
+              <li>Led supervised consultations and chronic disease reviews</li>
+              <li>Learned shared decision-making and safety-netting</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH ============ -->
+    <section class="section alt" id="research">
+      <div class="container">
+        <h2 class="section-title">Research, Audit &amp; Publications</h2>
+        <div class="two-col">
+          <div>
+            <h3 class="sub-title">Projects</h3>
+            <ul class="entry-list">
+              <li>
+                <strong>Audit: VTE prophylaxis prescribing on medical wards</strong>
+                <span class="meta">Lead student · 2025 · Two-cycle audit</span>
+                <p>Compliance improved from X% to Y% after introducing a prescribing prompt. Presented at departmental governance meeting.</p>
+              </li>
+              <li>
+                <strong>Research: Your project title</strong>
+                <span class="meta">Supervisor: Dr Name · 2024 – present</span>
+                <p>One-sentence aim, your role (data collection, analysis, write-up) and current status.</p>
+              </li>
+              <li>
+                <strong>Quality Improvement: Your QI project</strong>
+                <span class="meta">Team member · 2024</span>
+                <p>Problem, intervention (PDSA cycles), measurable outcome.</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub-title">Publications &amp; Presentations</h3>
+            <!-- EDIT: use Vancouver style; bold your own name. Add DOI links. -->
+            <ol class="pubs">
+              <li><strong>Surname A</strong>, Coauthor B, Senior C. Title of paper. <em>Journal Name</em>. 2025;12(3):45–52. <a href="#">doi:10.xxxx/xxxxx</a></li>
+              <li><strong>Surname A</strong>, Coauthor B. Title of poster. Poster presented at: <em>Conference Name</em>; 2025; City.</li>
+              <li><strong>Surname A</strong>. Title of oral presentation. Oral presentation at: <em>Student Research Symposium</em>; 2024; City.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title">Clinical Skills &amp; Procedures</h2>
+        <p class="section-intro">
+          Self-reported level, verified by supervisor sign-off in my official logbook.
+        </p>
+        <div class="table-wrap">
+          <table class="skills-table">
+            <thead>
+              <tr><th scope="col">Procedure</th><th scope="col">Observed</th><th scope="col">Performed (supervised)</th><th scope="col">Level</th></tr>
+            </thead>
+            <tbody>
+              <!-- EDIT: level values: observed | supervised | competent -->
+              <tr><td>Venepuncture</td><td>5</td><td>30+</td><td><span class="level competent">Competent</span></td></tr>
+              <tr><td>Peripheral IV cannulation</td><td>5</td><td>20+</td><td><span class="level competent">Competent</span></td></tr>
+              <tr><td>12-lead ECG recording &amp; interpretation</td><td>10</td><td>25</td><td><span class="level competent">Competent</span></td></tr>
+              <tr><td>Arterial blood gas sampling</td><td>6</td><td>4</td><td><span class="level supervised">Supervised</span></td></tr>
+              <tr><td>Urinary catheterisation</td><td>4</td><td>3</td><td><span class="level supervised">Supervised</span></td></tr>
+              <tr><td>Simple wound suturing</td><td>8</td><td>6</td><td><span class="level supervised">Supervised</span></td></tr>
+              <tr><td>Nasogastric tube insertion</td><td>3</td><td>0</td><td><span class="level observed">Observed</span></td></tr>
+              <tr><td>Lumbar puncture</td><td>2</td><td>0</td><td><span class="level observed">Observed</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 class="sub-title">Other skills</h3>
+        <ul class="tags">
+          <li>Prescribing (PSA practice)</li><li>Clinical communication</li><li>Breaking bad news (simulated)</li>
+          <li>Data analysis (R / SPSS)</li><li>Systematic literature searching</li><li>Teaching &amp; facilitation</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ LEADERSHIP ============ -->
+    <section class="section alt" id="leadership">
+      <div class="container">
+        <h2 class="section-title">Teaching, Leadership &amp; Service</h2>
+        <div class="card-grid three">
+          <article class="card">
+            <h3>Teaching</h3>
+            <ul>
+              <li>Peer tutor — OSCE examination skills for Year 2 (2025–)</li>
+              <li>Co-designed a 6-session ECG teaching series; feedback collected (mean 4.7/5)</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Leadership</h3>
+            <ul>
+              <li>President / Committee role — Medical Society Name</li>
+              <li>Year representative on the curriculum committee</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Volunteering</h3>
+            <ul>
+              <li>Community health screening camps (120+ hours)</li>
+              <li>Hospice volunteer — patient and family support</li>
+            </ul>
+          </article>
+        </div>
+        <h3 class="sub-title">Awards &amp; Prizes</h3>
+        <ul class="entry-list compact">
+          <li><strong>Prize Name</strong> <span class="meta">Awarding body · Year</span></li>
+          <li><strong>Scholarship Name</strong> <span class="meta">Awarding body · Year</span></li>
+          <li><strong>Best Poster</strong> <span class="meta">Conference Name · Year</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ REFLECTIONS ============ -->
+    <section class="section" id="reflections">
+      <div class="container">
+        <h2 class="section-title">Reflective Practice</h2>
+        <p class="section-intro">
+          Structured reflections (Gibbs’ cycle). All cases are fully anonymised in line with professional
+          guidance on confidentiality.
+        </p>
+        <div class="filter" role="group" aria-label="Filter reflections">
+          <button class="chip is-active" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="communication" aria-pressed="false">Communication</button>
+          <button class="chip" data-filter="clinical" aria-pressed="false">Clinical</button>
+          <button class="chip" data-filter="professionalism" aria-pressed="false">Professionalism</button>
+          <button class="chip" data-filter="teamwork" aria-pressed="false">Teamwork</button>
+        </div>
+        <div class="reflections">
+          <!-- EDIT: data-tags must match the filter buttons above -->
+          <details class="reflection" data-tags="communication">
+            <summary>
+              <span class="r-title">Breaking bad news on a medical ward</span>
+              <span class="r-meta">Communication · Year 4</span>
+            </summary>
+            <div class="gibbs">
+              <div><h4>Description</h4><p>What happened, in brief and anonymised.</p></div>
+              <div><h4>Feelings</h4><p>What you were thinking and feeling.</p></div>
+              <div><h4>Evaluation</h4><p>What went well and what didn’t.</p></div>
+              <div><h4>Analysis</h4><p>Why — link to literature or guidance (e.g. SPIKES framework).</p></div>
+              <div><h4>Conclusion</h4><p>What you learned.</p></div>
+              <div><h4>Action plan</h4><p>What you will do differently next time.</p></div>
+            </div>
+          </details>
+          <details class="reflection" data-tags="clinical teamwork">
+            <summary>
+              <span class="r-title">My first cardiac arrest call</span>
+              <span class="r-meta">Clinical · Teamwork · Year 4</span>
+            </summary>
+            <div class="gibbs">
+              <div><h4>Description</h4><p>…</p></div>
+              <div><h4>Feelings</h4><p>…</p></div>
+              <div><h4>Evaluation</h4><p>…</p></div>
+              <div><h4>Analysis</h4><p>…</p></div>
+              <div><h4>Conclusion</h4><p>…</p></div>
+              <div><h4>Action plan</h4><p>…</p></div>
+            </div>
+          </details>
+          <details class="reflection" data-tags="professionalism">
+            <summary>
+              <span class="r-title">Recognising the limits of my competence</span>
+              <span class="r-meta">Professionalism · Year 3</span>
+            </summary>
+            <div class="gibbs">
+              <div><h4>Description</h4><p>…</p></div>
+              <div><h4>Feelings</h4><p>…</p></div>
+              <div><h4>Evaluation</h4><p>…</p></div>
+              <div><h4>Analysis</h4><p>…</p></div>
+              <div><h4>Conclusion</h4><p>…</p></div>
+              <div><h4>Action plan</h4><p>…</p></div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section alt" id="contact">
+      <div class="container narrow center">
+        <h2 class="section-title">Contact</h2>
+        <p>Open to research collaborations, elective placements and teaching opportunities.</p>
+        <!-- EDIT: use a professional address; avoid publishing your phone number -->
+        <ul class="contact-links">
+          <li><a href="mailto:your.name@university.edu">your.name@university.edu</a></li>
+          <li><a href="https://www.linkedin.com/in/your-profile" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://orcid.org/0000-0000-0000-0000" rel="noopener">ORCID</a></li>
+          <li><a href="https://scholar.google.com/" rel="noopener">Google Scholar</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Your Name. Content is for professional portfolio purposes; no patient-identifiable information is included.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
